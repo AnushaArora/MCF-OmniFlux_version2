@@ -39,8 +39,10 @@ Proactively manage inventory placement to save costs and speed up deliveries.
 Real-time delivery estimates improve transparency and customer satisfaction.  
 ### 3. Interactive Packaging Customizer  
 Allows customers to select eco-friendly packaging options during checkout.  
-### 4. Predictive Customer Happiness Indicator  
+### 4. Predictive Customer Happiness Indicator
 Prevents issues before they happen by predicting customer satisfaction.
+
+
 ---
 ## Conclusion  
 MCF OmniFlux helps businesses manage complex logistics with AI-driven routing, real-time inventory management, and sustainability-focused features. Businesses benefit from enhanced security, mobile access, and international scalability, while customers enjoy flexible, transparent, and eco-friendly shopping.
