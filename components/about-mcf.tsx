@@ -16,51 +16,52 @@ const benefits = [
   {
     title: "Boost Productivity",
     description: "Streamline operations with minimal effort.",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/graphics-software_17122619.gif",
+    
   },
   {
     title: "Customizable Solutions",
     description: "Tailored to your unique needs.",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/file_11677471.gif",
   },
   {
     title: "Time-Saving Integration",
     description: "Get up and running in no time",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/1-hour_12146046.gif",
   },
   {
     title: "Enhanced Accuracy",
     description: "Reduce errors and improve outcomes.",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/direct-selection_17097935.gif",
   },
   {
     title: "Dedicated Support",
     description: "Backed by expert assistance 24/7.",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/virtual-assistant_17569417.gif",
   },
 ]
-
+//gif (icons):: (page includes benefits)
 // Features data
 const features = [
   {
     title: "One inventory for all sales channels",
     description: "You can use existing FBA listings and inventory to fulfill all your off-Amazon orders",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/box.png",
   },
   {
     title: "All in one fulfilment solution",
     description: "We take care of everything- from doorstep inventory pickup, storage, placement, packaging, invoicing and fulfilment",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/delivery-day.png",
   },
   {
     title: "Automated fulfilment and real time tracking",
     description: "Seamlessly connect MCF with your back-end systems and automate the entire order fulfilment process",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/global-distribution.png",
   },
   {
     title: "Multiple payment options for customers",
     description: "Provide multiple payment options like prepaid while order placement or through credit card, debit card, UPI or cash",
-    icon: "/placeholder.svg?height=64&width=64",
+    icon: "/images/shipped.png",
   },
 ]
 
@@ -69,27 +70,27 @@ const steps = [
   {
     title: "Step 1",
     description: "Send inventory to Amazon fulfillment centers (FC)",
-    icon: "/placeholder.svg?height=48&width=48",
+    icon: "/images/supermarket_10606405.gif",
   },
   {
     title: "Step 2",
     description: "Amazon receives and stores your inventory",
-    icon: "/placeholder.svg?height=48&width=48",
+    icon: "/images/menu_13896588.gif",
   },
   {
     title: "Step 3",
     description: "Customers order products on your website or other sales channels",
-    icon: "/placeholder.svg?height=48&width=48",
+    icon: "/images/doubts_10967600.gif",
   },
   {
     title: "Step 4",
     description: "Amazon packs and ships your order with invoice",
-    icon: "/placeholder.svg?height=48&width=48",
+    icon: "/images/star_17643236.gif",
   },
   {
     title: "Step 5",
     description: "Amazon delivers your product",
-    icon: "/placeholder.svg?height=48&width=48",
+    icon: "/images/world-location_17569486.gif",
   },
 ]
 
@@ -111,7 +112,7 @@ export function AboutMCF() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/about.png"
                 alt="Amazon Fulfillment Center"
                 fill
                 className="rounded-lg object-cover"

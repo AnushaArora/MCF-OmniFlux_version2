@@ -10,6 +10,7 @@ import {
 import { Button } from "@/components/ui/button"
 
 // FAQ data
+
 const faqs = [
   {
     question: "How do I get started with MCF?",
