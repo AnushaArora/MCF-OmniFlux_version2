@@ -22,7 +22,7 @@ export function Hero() {
           </div>
           <div className="lg:w-1/2 relative">
             <Image
-              src="/Screenshot 2024-11-24 160228.png"
+              src="/images/Screenshot 2024-11-24 160228.png"
               alt="Multi-Channel Fulfillment"
               width={600}
               height={400}

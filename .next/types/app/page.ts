@@ -1,4 +1,4 @@
-// File: C:\Users\sanku\Desktop\react\next_app\MCF\MCF-OmniFlux_version2\app\page.tsx
+// File: D:\Aditi pers\Amazon Sambhav\MCF-OmniFlux_version2\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
