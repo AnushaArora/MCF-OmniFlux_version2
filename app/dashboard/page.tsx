@@ -31,7 +31,7 @@ import {
 import { RouteOptimizationTab } from '@/components/route-optimization-tab'
 
 // Types
-type TabType = 'overview' | 'orders' | 'inventory' | 'analytics' | 'sustainability' | 'settings' | 'route-optimization'
+type TabType = 'overview' | 'orders' | 'inventory' | 'analytics' | 'sustainability' | 'settings' | 'route-optimization' | 'Notification'
 
 type Order = {
   id: string
@@ -60,11 +60,24 @@ type FulfillmentOption = {
   eco: number
 }
 
+type Notification ={
+  id: string
+  title: string
+  message: string
+  type: 'info' | 'warning' | 'error'
+  timestamp: string
+}
+
 // Mock data
 const orders: Order[] = [
   { id: '1', customer: 'John Doe', total: 125.99, status: 'processing', date: '2023-11-22' },
   { id: '2', customer: 'Jane Smith', total: 89.99, status: 'shipped', date: '2023-11-21' },
-  { id: '3', customer: 'Bob Johnson', total: 199.99, status: 'delivered', date: '2023-11-20' },
+  { id: '3', customer: 'Bob Johnson', total: 1899.99, status: 'delivered', date: '2023-11-20' },
+  { id: '4', customer: 'Jennifer Laurent', total: 1939.99, status: 'delivered', date: '2023-11-20' },
+  { id: '5', customer: 'Katherine Pierce', total: 19.99, status: 'processing', date: '2023-11-20' },
+  { id: '6', customer: 'Mia Melworne', total: 163.99, status: 'processing', date: '2023-11-22' },
+  { id: '7', customer: 'Sadika Wharton', total: 193.99, status: 'processing', date: '2023-11-20' },
+  { id: '8', customer: 'Hadiie White', total: 196.99, status: 'delivered', date: '2023-11-17' },
 ]
 
 const inventoryItems: InventoryItem[] = [
@@ -97,6 +110,14 @@ const carbonEmissionsData = [
   { name: 'Eco-Friendly', value: 300 },
 ]
 
+const fetchNotifications = async (): Promise<Notification[]> => {
+  await new Promise(resolve => setTimeout(resolve, 800))
+  return [
+    { id: '1', title: 'Low Stock Alert', message: 'Eco-Friendly Water Bottle stock is below 100 units', type: 'warning', timestamp: '2023-06-01T14:30:00Z' },
+    { id: '2', title: 'New Integration', message: 'Shopify integration is now live', type: 'info', timestamp: '2023-05-31T09:15:00Z' },
+    { id: '3', title: 'Fulfillment Error', message: 'Order ORD-005 failed to process', type: 'error', timestamp: '2023-06-01T11:45:00Z' },
+  ]
+}
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042']
 
 // Components
@@ -145,6 +166,7 @@ export default function Dashboard() {
     { icon: Leaf, label: 'Sustainability', tab: 'sustainability' as const },
     { icon: Settings, label: 'Settings', tab: 'settings' as const },
     { icon: Settings, label: 'Route Optimization', tab: 'route-optimization' as const },
+    { icon: Settings, label: 'Notifications', tab: 'Notification' as const },
   ], [])
 
   return (
@@ -202,6 +224,7 @@ export default function Dashboard() {
                   {selectedTab === 'sustainability' && <SustainabilityTab />}
                   {selectedTab === 'settings' && <SettingsTab />}
                   {selectedTab === 'route-optimization' && <RouteOptimizationTab />}
+                  {selectedTab === 'Notification' && <NotificationsTab />}
                 </>
               )}
             </motion.div>
@@ -548,6 +571,42 @@ const AnalyticsTab = React.memo(() => (
           ))}
         </TableBody>
       </Table>
+    </CardContent>
+  </Card>
+))
+
+const NotificationsTab = React.memo(() => (
+  <Card className="bg-card border-border">
+    <CardHeader>
+      <CardTitle className="text-foreground">Notifications</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-4">
+        <div className="flex items-center space-x-4 p-4 bg-background rounded-lg border border-border">
+          <CardTitle className="h-6 w-6 text-yellow-500" />
+          <div>
+            <p className="text-sm font-medium text-foreground">SKU id hdu3628 is selling out fast (denim jacket black colour size XS) restock now!</p>
+          </div>
+        </div>
+        <div className="flex items-center space-x-4 p-4 bg-background rounded-lg border border-border">
+          <CardTitle className="h-6 w-6 text-red-500" />
+          <div>
+            <p className="text-sm font-medium text-foreground">Customers are returning your product SKU ID 2hgsj467, click here to know why</p>
+          </div>
+        </div>
+        <div className="flex items-center space-x-4 p-4 bg-background rounded-lg border border-border">
+          <CardTitle className="h-6 w-6 text-blue-500" />
+          <div>
+            <p className="text-sm font-medium text-foreground">Amazon Big Bang sale approaching! Restock SKU IDs 28bdh27, hdi3784, and more..</p>
+          </div>
+        </div>
+        <div className="flex items-center space-x-4 p-4 bg-background rounded-lg border border-border">
+          <CardTitle className="h-6 w-6 text-green-500" />
+          <div>
+            <p className="text-sm font-medium text-foreground">Dead inventory pickup requested. Visit MCF now!</p>
+          </div>
+        </div>
+      </div>
     </CardContent>
   </Card>
 ))
