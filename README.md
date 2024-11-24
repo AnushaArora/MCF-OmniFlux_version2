@@ -1,4 +1,15 @@
 # MCF OmniFlux
+## Table of Contents  
+1. Solution Overview
+2. Website Look
+3. Core Features
+4. Unique Selling Points (USPs) 
+5. Solution Architecture
+6. Use Cases
+7. Tech Stack
+8. Demo Link  
+9. How to Download
+10. Learn More
 ## Solution Overview  
 **Ultimate Multi-Channel Smart Fulfillment Solution with AI-Driven Routing and Sustainability Alignment**  
 This innovative, AI-powered fulfillment tool is designed to make it easy for businesses to manage inventory and orders across different sales channels, including Amazon’s Multi-Channel Fulfillment (MCF) and other logistics networks. With cutting-edge AI, real-time inventory management, and a focus on eco-friendly practices, it helps businesses operate efficiently, keep customers happy, and minimize their environmental impact.
@@ -184,6 +195,31 @@ Use the AI-powered fulfillment tool to integrate Shopify with Amazon MCF, third-
 11. **Sustainability Tracking:** Provides a carbon emissions dashboard and eco-points incentives.  
 12. **Mobile and Cloud Integration:** Enables central management and scaling for increased order volumes.
 ---
+# Tech Stack
+
+## Frontend
+- *Next.js*
+- *Tailwind CSS*
+
+## Backend
+- *Node.js*
+- *Express.js*
+
+## Database
+- *PostgreSQL*
+- *Redis*
+
+## Artificial Intelligence
+- *TensorFlow*
+- *Keras*
+- *Scikit-learn*
+- *Matplotlib*
+- *NumPy*
+- *Pandas*
+- *Ridge Regression*
+- *Lasso Regression*
+- *Generative AI*
+- *Gemini API*
 ---
 ### Want to learn more?  
 Reach out to us or explore the solution further by diving into our **code repository**.
