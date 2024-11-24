@@ -1,3 +1,13 @@
+![home page](https://github.com/user-attachments/assets/ccdf7e21-f941-4d73-9f93-074c279e79bd)
+![log in ](https://github.com/user-attachments/assets/e1bc6887-3049-4dd3-97e8-6f2e78eac6ca)
+![main page](https://github.com/user-attachments/assets/ea8c3215-7ff7-4037-b972-cd3265f632b8)
+![main page 2](https://github.com/user-attachments/assets/fa377f6b-306a-47e4-b676-ad466466f4d4)
+![graphs and analysis](https://github.com/user-attachments/assets/9f621f4b-1052-4c39-83cf-3e39c5f1fcf2)
+
+
+
+
+
 # MCF OmniFlux
 ## Solution Overview  
 **Ultimate Multi-Channel Smart Fulfillment Solution with AI-Driven Routing and Sustainability Alignment**  
