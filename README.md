@@ -33,10 +33,10 @@ This innovative, AI-powered fulfillment tool is designed to make it easy for bus
 - **Hybrid Fulfillment Flexibility:** Supports multiple fulfillment networks, reducing reliance on a single provider.  
 ### 2. Real-Time Cost and Profit Analyzer  
 - **Dynamic Cost Calculation:** Provides real-time calculations of fees (e.g., storage, picking, packing, shipping) by integrating with Amazon's MCF API.  
-- **Profit Margin Insight:** Combines real-time cost data with the product’s selling price to calculate profit margins instantly.  
+- **Profit Margin Insight:** Combines real-time cost data with the product’s selling price to calculate profit margins instantly using GenAI.  
 - **Trend and Forecast Analysis:** Aggregates historical data to analyze seasonal trends and predict future fee changes.
 ### 3. Real-Time Inventory Sync and Adaptive Management  
-- **Automated Inventory Forecasting:** Predicts demand based on trends and places stock closer to high-demand areas.  
+- **Automated Inventory Forecasting:** Predicts demand based on trends and places stock closer to high-demand areas using GenAI and neutral networks.  
 - **Cross-Channel Inventory Sync:** Ensures consistent inventory levels across platforms (e.g., Shopify, Amazon).  
 - **Dynamic Buffer Stock Allocation:** Automatically adjusts stock to minimize manual work.
 ---
