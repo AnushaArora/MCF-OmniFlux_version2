@@ -224,7 +224,7 @@ Use the AI-powered fulfillment tool to integrate Shopify with Amazon MCF, third-
 ## 8. Demo Link  
 Explore the live demonstration of MCF OmniFlux to experience its features in action:  
 
-[Watch Demo](https://amazon-mcf-omni-flux.vercel.app/)  
+[Watch Demo](https://mcf-omni-flux.vercel.app/)  
 
 Click the button above to see the solution in action!  
 
