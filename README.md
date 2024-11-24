@@ -56,6 +56,8 @@ Proactively redistributes inventory to minimize delivery times and reduce shippi
 ---
 ## Conclusion  
 MCF OmniFlux helps businesses manage complex logistics with AI-driven routing, real-time inventory management, and sustainability-focused features. Businesses benefit from enhanced security, mobile access, and international scalability, while customers enjoy flexible, transparent, and eco-friendly shopping.
+
+
 ---
 ## Solution Architecture
 ### Database Integration
@@ -138,6 +140,8 @@ predicted_demand = model.predict(scaled_data[-30:])  # Predict the next 30 days
 ```
 ---
 MCF OmniFlux helps businesses manage complex logistics with AI-driven routing, real-time inventory management, and sustainability-focused features. Businesses benefit from enhanced security, mobile access, and international scalability, while customers enjoy flexible, transparent, and eco-friendly shopping.
+
+
 ---
 ## Use Case: EcoGoods – Sustainable Fulfillment Process
 ### Background  
