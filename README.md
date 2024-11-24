@@ -1,3 +1,9 @@
+# MCF OmniFlux
+## Solution Overview  
+**Ultimate Multi-Channel Smart Fulfillment Solution with AI-Driven Routing and Sustainability Alignment**  
+This innovative, AI-powered fulfillment tool is designed to make it easy for businesses to manage inventory and orders across different sales channels, including Amazon’s Multi-Channel Fulfillment (MCF) and other logistics networks. With cutting-edge AI, real-time inventory management, and a focus on eco-friendly practices, it helps businesses operate efficiently, keep customers happy, and minimize their environmental impact.
+
+
 ![home page](https://github.com/user-attachments/assets/ccdf7e21-f941-4d73-9f93-074c279e79bd)
 
 
@@ -18,10 +24,6 @@
 
 
 
-# MCF OmniFlux
-## Solution Overview  
-**Ultimate Multi-Channel Smart Fulfillment Solution with AI-Driven Routing and Sustainability Alignment**  
-This innovative, AI-powered fulfillment tool is designed to make it easy for businesses to manage inventory and orders across different sales channels, including Amazon’s Multi-Channel Fulfillment (MCF) and other logistics networks. With cutting-edge AI, real-time inventory management, and a focus on eco-friendly practices, it helps businesses operate efficiently, keep customers happy, and minimize their environmental impact.
 
 ---
 ## Core Features 
